@@ -19,13 +19,7 @@ class TransactionController(
     val deleteTransactions: DeleteTransactions
 ) {
 
-
-    @GetMapping("")
-    @ResponseStatus(HttpStatus.OK)
-    fun listTransactions(): List<Transaction> {
-        return getTransactions()
-    }
-
+    
 
     @PostMapping
     fun saveTransaction(@RequestBody transactionRequest: TransactionRequest): ResponseEntity<Any> {
