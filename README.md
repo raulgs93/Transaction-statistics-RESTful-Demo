@@ -1,5 +1,5 @@
 # Description
-RESTful API demo that calculates statistics for transactions in las 60 seconds
+RESTful API demo that calculates statistics for transactions in the last 60 seconds
 
 
 ## Run
