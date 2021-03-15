@@ -9,7 +9,7 @@ RESTful API demo that calculates statistics for transactions in the last 60 seco
 
 ## Usage 
 
-* ### POST api/v1/transaction
+* ### POST /api/v1/transactions
 
 Creates a new transaction
 
@@ -21,7 +21,7 @@ Body content:
 }
 ```
 
-* ### GET api/v1/statistics
+* ### GET /api/v1/statistics
 
 Returns statistics for transactions within last 60 seconds
 
@@ -37,7 +37,7 @@ Body response example:
 ```
 
 
-* ### DELETE api/v1/transaction
+* ### DELETE /api/v1/transactions
 
 Deletes all transactions
 
